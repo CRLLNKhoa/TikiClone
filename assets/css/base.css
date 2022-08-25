@@ -1,0 +1,41 @@
+/* Font */
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    background-color: #efefef;
+}
+body{
+  height: 2000px;
+}
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color:rgb(91, 91, 91);
+    --primary-color: #1A94FF;
+    --star-rating: rgb(229, 188, 52);
+    --sale-color: #FFDA4B;
+    --nav-height: 36px;
+    --header-height: 120px;
+    --header-search: calc(var(--header-height) - var(--nav-height) );
+    --line-color: rgb(231, 228, 228);
+    --box-shadow: rgb(0 0 0 / 10%) 0px 1px 2px 0px;
+    --item-shadow: rgb(0 0 0 / 10%) 0px 0px 20px;
+    --border-color: #c8c4c446;
+}
+.disable{
+  display: none;
+}
+
+.acctive{
+  background-color: green;
+}
+button{
+  outline: none;
+  border: 0;
+  background-color: transparent;
+}
+a{
+  text-decoration: none;
+}
